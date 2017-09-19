@@ -1,0 +1,231 @@
+/*公共样式*/
+.autoBox
+{
+	width: 100%; 
+}
+
+/*在1260-1346之间自适应宽度*/
+.box1300
+{
+	width: 96%;
+	min-width: 1260px;
+	max-width: 1346px;
+	margin: 0px auto;
+}
+
+/*版心：浏览器的最小分辨率*/
+.box1190
+{
+	width: 1190px;
+	margin: 0px auto;
+}
+
+.borderBottom
+{
+	border-bottom: solid 1px #e3e7e8;
+}
+
+.fl
+{
+	float: left;
+}
+
+.fr
+{
+	float: right;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.blue
+{
+	color: #2fb3ff;
+}
+
+.icon
+{
+	background: url(../images/header_2663bc2.png) no-repeat;
+	width: 18px;
+	height: 18px;
+	margin-left: 10px;
+}
+
+.g_icon
+{
+	background: url(../images/g_0c02dfd.png) no-repeat;
+	width: 22px;
+	height: 10px;
+	display: block;
+	position: absolute;
+	right: 0px;
+	top: -9px;
+}
+
+.newICON
+{
+	background-position: -72px -20px;
+}
+
+.hotICON
+{
+	background-position: -72px -36px;
+}
+
+.sanjiao
+{
+	border-width:6px;
+	border-style:solid;
+	cursor: pointer;
+	/*上右下左，需要那边显示就设置颜色，不需要的设置为透明*/
+	border-color:#878787 transparent transparent transparent;
+	width: 0px;
+	height: 0px;
+	margin: 6px 0px 0px 8px;
+}
+
+.sanjiao:hover
+{
+	border-color: transparent transparent #878787 transparent;
+	position: relative;
+	top: -6px;
+}
+
+/*第一行：logo+会员+搜索*/
+#topBar
+{
+	height: 60px;
+	padding-top: 20px;
+}
+
+#topBar #logo
+{
+	width: 148px;
+	height: 50px;
+	background: url(../images/yk-logo-1220.png) no-repeat;
+}
+
+#topBar #guide
+{
+	width: 60px;
+	height: 20px;
+	margin-top: 16px;
+}
+
+#topBar #guide .guideICON
+{
+	background-position: -118px -255px;
+}
+
+#topBar #member .historyICON
+{
+	background-position: -98px -236px;
+}
+
+#topBar #member .msgICON
+{
+	background-position: -20px 2px;
+}
+
+#topBar #member .uploadICON
+{
+	background-position: -40px 2px;
+}
+
+#topBar #vipMenu li
+{
+	float: left;
+	width: 60px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	border: solid 1px #2fb3ff;
+	border-right: solid 0px #2fb3ff;
+}
+
+#topBar #vipMenu .borderRight
+{
+	border-right: solid 1px #2fb3ff;
+}
+
+#topBar #member
+{
+	width: 230px;
+	height: 20px;
+	margin: 16px 0px 0px 20px;
+}
+
+#topBar #serach
+{
+	position: relative;
+}
+
+#topBar #serach #keywords
+{
+	width: 330px;
+	height: 34px;
+	
+	padding-left: 40px;
+	border: solid 1px #2fb3ff;
+	/*去掉输入框的默认蓝色边框*/
+	outline: none;
+	
+	background-position: -130px -184px;
+}
+
+#topBar #serach #searchBtn
+{
+	width: 80px;
+	height: 36px;
+	font-size: 14px;
+	color: #fff;
+	background-color: #2fb3ff;
+	border: solid 1px #2fb3ff;
+}
+
+#topBar #serach #hotICON
+{
+	position: absolute;
+	right: 86px;
+	top: 4px;
+}
+
+/*第二行：导航*/
+#mainNav
+{
+	height: 35px;
+	padding-top: 15px;
+}
+
+#mainNav #navText li
+{
+	float: left;
+	height: 35px;
+	padding: 0px 6px;
+}
+
+#mainNav #navText .current
+{
+	color: #2fb3ff;
+	border-bottom: solid 2px #2fb3ff;
+}
+
+
+
+
+
+
+
+/*第三行：子导航*/
+#subNav
+{
+	padding: 25px 0px;
+}
+#subNav li
+{
+	padding: 0px 6px;
+	float: left;
+	position: relative;
+}
